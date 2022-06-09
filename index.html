@@ -131,6 +131,20 @@
                     <p class="blog-post-text">I was able to get my database up and working properly not without some frustrations. When using SQLALCHEMY 1.4 the database URI has to have postgresql:// instead of postgres://, which is what the heroku command line gives you to use when you type the command in to get the path to the database, so that is very frustrating. I had to sign in to heroku in browser destroy the database and go through the process again except when I copy and pasted the path into my app.py file I just changed the beginning of the path to postgresql://, not very complicated just some research and a lot of patience, guess that come with the territory of software development.</p>
                 </div>
             </div>
+            <div class="blog-post">
+                <div class="blog-post-img">
+                    <img src="images/tech_blog.jpg" alt="tech blog">
+                </div>
+                <div class="blog-post-info">
+                    <div class="blog-post-date">
+                        <span>Kenneth Quiggins</span>
+                        <span>June, 5, 2022</span>
+                    </div>
+                    <h1 class="blog-post-title">Profile Pic Fix</h1>
+                    
+                    <p class="blog-post-text">The ability to upload a profile picture to the flask app was not working properly. I was able to find a bug in my code, I actually had the pic_name variable in the wrong spot, surprized I found it so easily. I am only saving the name of the picture in the database and using werkzeug.utils import secure_file name to secure the name in the database then saving the picture locally in the images folder. Will probably do something different in the future.</p>
+                </div>
+            </div>
         </div>
     </body>
 </html>
