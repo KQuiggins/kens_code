@@ -145,6 +145,20 @@
                     <p class="blog-post-text">The ability to upload a profile picture to the flask app was not working properly. I was able to find a bug in my code, I actually had the pic_name variable in the wrong spot, surprized I found it so easily. I am only saving the name of the picture in the database and using werkzeug.utils import secure_file name to secure the name in the database then saving the picture locally in the images folder. Will probably do something different in the future.</p>
                 </div>
             </div>
+            <div class="blog-post">
+                <div class="blog-post-img">
+                    <img src="images/tech_blog.jpg" alt="tech blog">
+                </div>
+                <div class="blog-post-info">
+                    <div class="blog-post-date">
+                        <span>Kenneth Quiggins</span>
+                        <span>June, 5, 2022</span>
+                    </div>
+                    <h1 class="blog-post-title">heroku remote</h1>
+                    
+                    <p class="blog-post-text">I ran into an issue when trying to push my changes to heroku's remote repository for my flask app. I fixed the user profile link to display "Hello [current user]!!" when you click the link on the navbar, I then tried to push the changes to heroku and received an error saying the remote repo does not exist which is weird because I have pushed changes from this computer many times without issue. With a little research was able to find a solution by using this command heroku git:remote -a example-app. So overall it was a success and a learning experience but does not explain why it keeps losing the repo from time to time.</p>
+                </div>
+            </div>
         </div>
     </body>
 </html>
