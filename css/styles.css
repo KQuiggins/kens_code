@@ -40,8 +40,9 @@ span{
     display: inline-block;
     cursor : pointer;
     text-align: center;
-    margin-top: 90px;
-    margin-left: 375px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 305px;
 }
 
 .blog-post{
