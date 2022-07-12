@@ -18,6 +18,20 @@
                 <div class="blog-post-info">
                     <div class="blog-post-date">
                         <span>Kenneth Quiggins</span>
+                        <span>July, 12, 2022</span>
+                    </div>
+                    <h1 class="blog-post-title">wsl 2 & ubuntu</h1>
+                    <p class="blog-post-text">I ran into a problem while developing a Django app using Windows Subsystem for Linux. Apparently the permissions for some of the files and folders if you create them in Ubuntu and you are working in vsCode are set to Root and this will not allow you to edit and save your progress. At first I had no idea what EAccess error I was getting was, after some research, found you need to change owner and change group of the folder you are working in with (chown -R [user] [folder/file]) and (chgrp -R [user] [folder/file]) after that you should be able to edit and save your progress. Hope this helps someone that runs into this problem. Happy Coding!!!!</p>
+                    
+                </div>
+            </div>
+            <div class="blog-post">
+                <div class="blog-post-img">
+                    <img src="images/tech_blog.jpg" alt="">
+                </div>
+                <div class="blog-post-info">
+                    <div class="blog-post-date">
+                        <span>Kenneth Quiggins</span>
                         <span>July, 9, 2022</span>
                     </div>
                     <h1 class="blog-post-title">Accomplishment</h1>
